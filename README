@@ -1,5 +1,5 @@
 NAME
-    SMS::Send::RedOxygen - SMS::Send driver for RedOxygen.com RedOxygen
+    SMS::Send::RedOxygen - SMS::Send driver for RedOxygen.com RedSMS
 
 SYNOPSIS
       # Create a RedOxygen sender. For now, only AccountID+Password authentication
@@ -36,6 +36,9 @@ DESCRIPTION
     LWP::UserAgent must be available for this module to function. This is
     typically packaged as libwww-perl on many systems, and can also be
     installed from CPAN.
+
+LICENSE
+    The same as for Perl itself
 
 SUPPORT
     Bugs should be reported via the CPAN bug tracker at
