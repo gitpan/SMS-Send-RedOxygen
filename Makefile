@@ -21,7 +21,7 @@
 #     NAME => q[SMS::Send::RedOxygen]
 #     NO_META => q[1]
 #     PREREQ_PM => { Test::More=>q[0.47], ExtUtils::MakeMaker=>q[6.6302], Carp=>q[0], SMS::Send=>q[1.06], LWP=>q[5.69] }
-#     VERSION => q[1.04]
+#     VERSION => q[1.05]
 #     VERSION_FROM => q[lib/SMS/Send/RedOxygen.pm]
 #     dist => { PREOP=>q[$(PERL) -I. "-MModule::Install::Admin" -e "dist_preop(q($(DISTVNAME)))"] }
 #     realclean => { FILES=>q[MYMETA.yml] }
@@ -63,11 +63,11 @@ DIRFILESEP = /
 DFSEP = $(DIRFILESEP)
 NAME = SMS::Send::RedOxygen
 NAME_SYM = SMS_Send_RedOxygen
-VERSION = 1.04
+VERSION = 1.05
 VERSION_MACRO = VERSION
-VERSION_SYM = 1_04
+VERSION_SYM = 1_05
 DEFINE_VERSION = -D$(VERSION_MACRO)=\"$(VERSION)\"
-XS_VERSION = 1.04
+XS_VERSION = 1.05
 XS_VERSION_MACRO = XS_VERSION
 XS_DEFINE_VERSION = -D$(XS_VERSION_MACRO)=\"$(XS_VERSION)\"
 INST_ARCHLIB = blib/arch
@@ -259,7 +259,7 @@ RCS_LABEL = rcs -Nv$(VERSION_SYM): -q
 DIST_CP = best
 DIST_DEFAULT = tardist
 DISTNAME = SMS-Send-RedOxygen
-DISTVNAME = SMS-Send-RedOxygen-1.04
+DISTVNAME = SMS-Send-RedOxygen-1.05
 
 
 # --- MakeMaker macro section:
