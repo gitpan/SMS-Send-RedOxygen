@@ -29,4 +29,4 @@ resources:
   homepage: https://github.com/ringerc/sms-send-redsms-perl
   license: http://dev.perl.org/licenses/
   repository: git://github.com/ringerc/sms-send-redsms-perl.git
-version: 1.05
+version: 1.06
